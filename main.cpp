@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdarg>
-
+#include "operations.h"
 
 
 int produto(int n, ...){
@@ -15,7 +15,7 @@ int produto(int n, ...){
 }
 
 int main(){
-	std::cout << produto(4, 2, 3, 4, 6); 
+	std::cout << mult(4.55, 2); 
 	
 	return 0;
 }
