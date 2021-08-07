@@ -3,6 +3,7 @@
 #include "operations.h"
 
 
+
 int produto(int n, ...){
 	va_list arg;
 	va_start(arg, n);
